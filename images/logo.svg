@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Turnip Academy turnip icon">
+  <defs>
+    <linearGradient id="turnipYellow" x1="260" y1="390" x2="760" y2="850" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F9DC3F"/>
+      <stop offset="0.55" stop-color="#F6D648"/>
+      <stop offset="1" stop-color="#F0B824"/>
+    </linearGradient>
+    <linearGradient id="leafGreen" x1="310" y1="80" x2="730" y2="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8CC35F"/>
+      <stop offset="1" stop-color="#5F9C45"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left leaf -->
+  <path d="M494 413
+           C432 310 329 212 226 226
+           C157 236 121 291 147 346
+           C168 390 224 412 301 400
+           C372 390 432 427 494 413Z"
+        fill="url(#leafGreen)"/>
+
+  <!-- Center leaf -->
+  <path d="M512 407
+           C452 313 418 214 458 121
+           C487 55 557 42 600 94
+           C634 136 635 203 598 271
+           C565 332 567 386 512 407Z"
+        fill="url(#leafGreen)"/>
+
+  <!-- Right leaf -->
+  <path d="M530 413
+           C592 310 695 212 798 226
+           C867 236 903 291 877 346
+           C856 390 800 412 723 400
+           C652 390 592 427 530 413Z"
+        fill="url(#leafGreen)"/>
+
+  <!-- Stems -->
+  <path d="M512 430 C500 355 500 250 513 132" fill="none" stroke="#4F843A" stroke-width="12" stroke-linecap="round"/>
+  <path d="M509 429 C455 363 385 302 277 274" fill="none" stroke="#4F843A" stroke-width="12" stroke-linecap="round"/>
+  <path d="M515 429 C569 363 639 302 747 274" fill="none" stroke="#4F843A" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- White leaf veins -->
+  <path d="M512 214 L512 352 M512 285 C535 246 562 225 592 208 M512 326 C485 284 464 263 435 247"
+        fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" opacity="0.9"/>
+  <path d="M274 280 C336 315 392 367 432 414 M351 340 C314 329 275 331 237 344"
+        fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" opacity="0.9"/>
+  <path d="M750 280 C688 315 632 367 592 414 M673 340 C710 329 749 331 787 344"
+        fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Heart-shaped turnip body -->
+  <path d="M512 432
+           C455 370 317 365 258 462
+           C190 574 272 705 407 805
+           C482 861 503 908 500 966
+           C558 904 525 862 617 801
+           C755 709 838 576 768 462
+           C708 365 568 370 512 432Z"
+        fill="url(#turnipYellow)"/>
+
+  <!-- Soft right shadow -->
+  <path d="M775 489
+           C805 587 724 704 598 789
+           C539 829 517 868 503 935
+           C557 877 539 843 630 785
+           C750 708 822 593 775 489Z"
+        fill="#EFB020" opacity="0.45"/>
+
+  <!-- Highlight -->
+  <path d="M309 498
+           C329 455 374 424 421 421
+           C438 420 443 438 427 445
+           C371 470 338 508 331 566
+           C328 590 297 588 299 562
+           C300 541 303 518 309 498Z"
+        fill="#FFF3A2" opacity="0.85"/>
+
+  <!-- Subtle turnip detail lines -->
+  <path d="M446 610 C484 635 545 638 582 612" fill="none" stroke="#E8A91B" stroke-width="10" stroke-linecap="round" opacity="0.65"/>
+  <path d="M454 674 C489 696 535 697 570 676" fill="none" stroke="#E8A91B" stroke-width="9" stroke-linecap="round" opacity="0.55"/>
+  <path d="M474 738 C501 752 527 752 551 739" fill="none" stroke="#E8A91B" stroke-width="8" stroke-linecap="round" opacity="0.5"/>
+</svg>
