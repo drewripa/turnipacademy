@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Turnip Academy – Where Little Roots Grow</title>
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ── NAV ─────────────────────────────────────────────── -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#" class="logo">
+        <img src="images/logo.svg" alt="" class="logo-img" aria-hidden="true" />
+        <span class="logo-text">Turnip Academy</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#day">Our Day</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact" class="btn btn-primary">Book a Tour</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </nav>
+  </header>
+
+  <!-- ── HERO ──────────────────────────────────────────────── -->
+  <section class="hero">
+    <img class="hero-img" src="images/hero.jpg" alt="" aria-hidden="true" />
+    <div class="hero-bg"></div>
+    <div class="hero-content container">
+      <p class="hero-eyebrow">Welcome to Turnip Academy</p>
+      <h1>A World of Wonder, Creativity &amp; Gentle Growth</h1>
+      <p class="hero-sub">
+        A nurturing place where little roots take hold, curiosity blooms, and every child's
+        unique spark is celebrated every single day.
+      </p>
+      <div class="hero-cta">
+        <a href="#about" class="btn btn-primary btn-large">Discover Our World</a>
+        <a href="#contact" class="btn btn-outline btn-large">Book a Tour</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">↓</div>
+  </section>
+
+  <!-- ── ABOUT ─────────────────────────────────────────────── -->
+  <section id="about" class="section section-light">
+    <div class="container two-col">
+      <div class="two-col-text">
+        <p class="section-eyebrow">Our Story</p>
+        <h2>Hi, I'm Kateryna</h2>
+        <p class="founder-subtitle">Founder of Turnip Academy</p>
+        <p>Creating this daycare has been my dream for as long as I can remember.</p>
+        <p>
+          I grew up in a big family with many younger brothers and sisters. As the oldest
+          sibling, I naturally became the one who cared for them, invented games, planned
+          activities, and found creative ways to make every day fun. Spending time with
+          children never felt like work — it was simply something I loved.
+        </p>
+        <p>
+          My grandfather used to tell me, <em>"If you find something you truly love,
+          you'll never have to work a day in your life."</em> Those words stayed with me
+          and inspired me to pursue a career in early childhood education.
+        </p>
+        <p>
+          Children inspire me every day. Their curiosity, imagination, and excitement for
+          discovering the world remind me why I chose this profession. I truly love
+          learning alongside them and helping each child build confidence, independence,
+          and a lifelong love of learning.
+        </p>
+        <p>
+          At Turnip Academy, my goal is to create more than just a daycare — a place
+          where every child feels safe, loved, and excited to come each morning, and where
+          families feel confident their little one is in caring hands.
+        </p>
+        <button class="btn btn-primary" id="btn-credentials" aria-haspopup="dialog">Credentials</button>
+      </div>
+      <div class="two-col-image">
+        <!-- Replace src with Kateryna's real photo when available -->
+        <img class="section-img founder-img" src="images/founder.jpg" alt="Kateryna, founder of Turnip Academy" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ── WHY TURNIP ACADEMY ────────────────────────────────── -->
+  <section id="programs" class="section section-cream">
+    <div class="container">
+      <p class="section-eyebrow center">What Makes Us Different</p>
+      <h2 class="center">Why Turnip Academy?</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <img src="images/feature-licensed.jpg" alt="Licensed Home Daycare" loading="lazy" />
+          <p>Licensed Home Daycare</p>
+        </div>
+        <div class="feature-card">
+          <img src="images/feature-stem.jpg" alt="STEM-Based Preschool Program" loading="lazy" />
+          <p>STEM-Based Preschool Program</p>
+        </div>
+        <div class="feature-card">
+          <img src="images/feature-montessori.jpg" alt="Montessori-Inspired Learning" loading="lazy" />
+          <p>Montessori-Inspired Learning</p>
+        </div>
+        <div class="feature-card">
+          <img src="images/feature-small-group.jpg" alt="Small Group Attention" loading="lazy" />
+          <p>Small Group Attention</p>
+        </div>
+        <div class="feature-card">
+          <img src="images/feature-meals.jpg" alt="Healthy Meals &amp; Snacks" loading="lazy" />
+          <p>Healthy Meals &amp; Snacks</p>
+        </div>
+        <div class="feature-card">
+          <img src="images/feature-outdoor.jpg" alt="Outdoor Play Every Day" loading="lazy" />
+          <p>Outdoor Play Every Day</p>
+        </div>
+        <div class="feature-card">
+          <img src="images/feature-kindergarten.jpg" alt="Kindergarten Readiness" loading="lazy" />
+          <p>Kindergarten Readiness</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── RHYTHM OF THE DAY ─────────────────────────────────── -->
+  <section id="day" class="section section-green">
+    <div class="container two-col two-col-reverse">
+      <div class="two-col-image">
+        <img class="section-img" src="images/schedule.jpg" alt="Children enjoying outdoor play at Turnip Academy" loading="lazy" />
+      </div>
+      <div class="two-col-text">
+        <p class="section-eyebrow">Daily Schedule</p>
+        <h2>The Rhythm of Our Day</h2>
+        <p>
+          From circle-time songs to garden adventures, our days are filled with laughter
+          and learning. We balance energetic play with quiet moments, ensuring a happy and
+          harmonious experience for every child.
+        </p>
+        <ul class="schedule-list">
+          <li><span class="time">7:30 AM – 8:30 AM</span> Arrival &amp; Free Play</li>
+          <li><span class="time">8:30 AM – 9:00 AM</span> Breakfast</li>
+          <li><span class="time">9:00 AM – 10:00 AM</span> Dance / Yoga</li>
+          <li><span class="time">10:00 AM – 11:10 AM</span> Outdoor Playtime</li>
+          <li><span class="time">11:10 AM – 11:40 AM</span> Circle Time</li>
+          <li><span class="time">11:40 AM – 12:15 PM</span> STEM Activity or Project</li>
+          <li><span class="time">12:15 PM – 12:30 PM</span> Storytime / Quiet Reading</li>
+          <li><span class="time">12:30 PM – 1:00 PM</span> Lunchtime</li>
+          <li><span class="time">1:00 PM – 3:00 PM</span> Nap Time</li>
+          <li><span class="time">3:15 PM – 3:40 PM</span> Snack</li>
+          <li><span class="time">3:40 PM – 4:20 PM</span> Free Play</li>
+          <li><span class="time">4:20 PM – 4:50 PM</span> Circle Time</li>
+          <li><span class="time">5:00 PM – 5:30 PM</span> Outdoor Play &amp; Pickup Time</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TESTIMONIALS ──────────────────────────────────────── -->
+  <section class="section section-light">
+    <div class="container">
+      <p class="section-eyebrow center">Google Reviews</p>
+      <h2 class="center">What Our Families Say</h2>
+      <div class="google-badge center">
+        <span class="google-stars">★★★★★</span>
+        <strong>5.0</strong> out of 5 &nbsp;·&nbsp; 9 reviews on
+        <a href="https://www.google.com/maps/place/Turnip+Academy/@35.5662744,-78.7804878,17z" target="_blank" rel="noopener noreferrer">Google Maps ↗</a>
+      </div>
+      <div class="testimonials">
+
+        <div class="testimonial">
+          <div class="testimonial-stars">★★★★★</div>
+          <blockquote>
+            "We are happy we found Turnip Academy. We had a hard time picking a daycare we
+            felt comfortable leaving our child with. So many places just didn't seem like the
+            right fit for us. Childcare is definitely Ms. Katya's true calling. She cares…"
+          </blockquote>
+          <cite>— Maryna Nadelman</cite>
+        </div>
+
+        <div class="testimonial">
+          <div class="testimonial-stars">★★★★★</div>
+          <blockquote>
+            "We feel incredibly lucky to have found Ms. Katya and her wonderful in-home
+            daycare! From the moment we walked through the door, we knew this was a special
+            place. Ms. Katya has created a warm, nurturing, and safe environment where
+            children truly thrive…"
+          </blockquote>
+          <cite>— Olya Fortunatova</cite>
+        </div>
+
+        <div class="testimonial">
+          <div class="testimonial-stars">★★★★★</div>
+          <blockquote>
+            "This daycare is a place where children are not only having fun but also actively
+            develop! They offer a unique program that helps unlock each child's potential.
+            The environment is warm and welcoming, making the adaptation process seamless…"
+          </blockquote>
+          <cite>— Cristina Croitoru</cite>
+        </div>
+
+        <div class="testimonial">
+          <div class="testimonial-stars">★★★★★</div>
+          <blockquote>
+            "My sister spent an incredible year at this academy, and she greatly misses Ms.
+            Katya. Our move to another state changed our visits, but the amazing experiences
+            and lessons will always stay with us. Thank you Turnip Academy ❤️"
+          </blockquote>
+          <cite>— Anastasiia Bidiuk</cite>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── GALLERY ───────────────────────────────────────────── -->
+  <section id="gallery" class="section section-cream">
+    <div class="container">
+      <p class="section-eyebrow center">Gallery</p>
+      <h2 class="center">A Sneak Peek into Our World</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item"><img src="images/gallery-01.jpg" alt="Art time" loading="lazy" /></div>
+        <div class="gallery-item"><img src="images/gallery-02.jpg" alt="Garden class" loading="lazy" /></div>
+        <div class="gallery-item"><img src="images/gallery-03.jpg" alt="Story time" loading="lazy" /></div>
+        <div class="gallery-item"><img src="images/gallery-04.jpg" alt="Music and movement" loading="lazy" /></div>
+        <div class="gallery-item"><img src="images/gallery-05.jpg" alt="Outdoor play" loading="lazy" /></div>
+        <div class="gallery-item"><img src="images/gallery-06.jpg" alt="Lunch together" loading="lazy" /></div>
+        <div class="gallery-item"><img src="images/gallery-07.jpg" alt="Children playing" loading="lazy" /></div>
+        <div class="gallery-item"><img src="images/gallery-08.jpg" alt="Classroom activities" loading="lazy" /></div>
+        <div class="gallery-item"><img src="images/gallery-09.jpg" alt="Outdoor exploration" loading="lazy" /></div>
+        <div class="gallery-item"><img src="images/gallery-10.jpg" alt="Learning with books" loading="lazy" /></div>
+        <div class="gallery-item"><img src="images/gallery-11.jpg" alt="Nature discovery" loading="lazy" /></div>
+        <div class="gallery-item"><img src="images/gallery-12.jpg" alt="Creative arts" loading="lazy" /></div>
+        <div class="gallery-item"><img src="images/gallery-13.jpg" alt="Active play" loading="lazy" /></div>
+        <div class="gallery-item"><img src="images/gallery-14.jpg" alt="Together time" loading="lazy" /></div>
+        <div class="gallery-item"><img src="images/gallery-15.jpg" alt="Drawing and crafts" loading="lazy" /></div>
+        <div class="gallery-item"><img src="images/gallery-16.jpg" alt="Group play" loading="lazy" /></div>
+        <div class="gallery-item"><img src="images/gallery-17.jpg" alt="Reading corner" loading="lazy" /></div>
+        <div class="gallery-item"><img src="images/gallery-18.jpg" alt="Sensory activities" loading="lazy" /></div>
+        <div class="gallery-item"><img src="images/gallery-19.jpg" alt="Learning together" loading="lazy" /></div>
+        <div class="gallery-item"><img src="images/gallery-20.jpg" alt="Garden play" loading="lazy" /></div>
+        <div class="gallery-item"><img src="images/gallery-21.jpg" alt="Morning activity" loading="lazy" /></div>
+        <div class="gallery-item"><img src="images/gallery-22.jpg" alt="Playtime" loading="lazy" /></div>
+        <div class="gallery-item"><img src="images/gallery-23.jpg" alt="Creative play" loading="lazy" /></div>
+        <div class="gallery-item"><img src="images/gallery-24.jpg" alt="Exploration time" loading="lazy" /></div>
+        <div class="gallery-item"><img src="images/gallery-25.jpg" alt="Learning fun" loading="lazy" /></div>
+        <div class="gallery-item"><img src="images/gallery-26.jpg" alt="Outdoor adventures" loading="lazy" /></div>
+        <div class="gallery-item"><img src="images/gallery-27.jpg" alt="Arts and crafts" loading="lazy" /></div>
+        <div class="gallery-item"><img src="images/gallery-28.jpg" alt="Circle time" loading="lazy" /></div>
+      </div>
+      <div class="center mt-lg">
+        <a href="#contact" class="btn btn-primary btn-large">See Our World in Bloom</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CREDENTIALS MODAL ────────────────────────────────── -->
+  <div id="credentials-modal" class="cred-backdrop" role="dialog" aria-modal="true" aria-labelledby="cred-title">
+    <div class="cred-bubble">
+      <button class="cred-close" id="cred-close" aria-label="Close">&times;</button>
+      <h3 id="cred-title">Kateryna’s Credentials</h3>
+      <ul class="cred-list">
+        <li>Bachelor’s degree from Drahomanov National Pedagogical University, Ukraine</li>
+        <li>8+ years of teaching experience</li>
+        <li>CPR &amp; First Aid certified</li>
+        <li>CCDF Health and Safety in Childcare certified</li>
+        <li>Providing in-home early learning since 2022</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ── LIGHTBOX ─────────────────────────────────────────── -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+    <button class="lb-close" id="lb-close" aria-label="Close">&times;</button>
+    <button class="lb-arrow lb-prev" id="lb-prev" aria-label="Previous">&#8249;</button>
+    <div class="lb-img-wrap">
+      <img id="lb-img" src="" alt="" />
+    </div>
+    <button class="lb-arrow lb-next" id="lb-next" aria-label="Next">&#8250;</button>
+    <p class="lb-counter" id="lb-counter"></p>
+  </div>
+
+  <!-- ── CTA ───────────────────────────────────────────────── -->
+  <section id="contact" class="section section-cta">
+    <div class="container center">
+      <p class="section-eyebrow">Enrollment</p>
+      <h2>Ready to Start the Journey?</h2>
+      <p class="section-intro">
+        We'd love to show you around. Book a personal tour and see why families
+        choose Turnip Academy for their little ones.
+      </p>
+      <div class="cta-buttons">
+        <a href="mailto:turnipacademy@gmail.com" class="btn btn-white btn-large">Book a Tour</a>
+        <a href="tel:+14252873911" class="btn btn-outline-white btn-large">Call Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ────────────────────────────────────────────── -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="logo">
+          <img src="images/logo.svg" alt="" class="logo-img" aria-hidden="true" />
+          <span class="logo-text">Turnip Academy</span>
+        </div>
+        <p>
+          Nurturing the unique spark in every child through nature, play, and creative
+          discovery.
+        </p>
+        <div class="social-links">
+          <a href="https://www.instagram.com/turnipacademy/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a href="https://www.facebook.com/p/Turnip-Academy-61550038922878/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#day">Our Day</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <address>
+          <p>1300 Ivey Grove Ct.<br />Fuquay-Varina, NC 27526</p>
+          <p><a href="tel:+14252873911">+1 (425) 287-3911</a></p>
+          <p><a href="mailto:turnipacademy@gmail.com">turnipacademy@gmail.com</a></p>
+        </address>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p>&copy; 2026 Turnip Academy. All rights reserved.</p>
+      <div class="footer-bottom-links">
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
