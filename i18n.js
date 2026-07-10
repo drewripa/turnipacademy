@@ -3,7 +3,7 @@
   const translations = {
     en: {
       'nav.about':    'About',
-      'nav.programs': 'Programs',
+      'nav.programs': 'Features',
       'nav.day':      'Our Day',
       'nav.gallery':  'Gallery',
       'nav.book':     'Book a Tour',
@@ -85,7 +85,7 @@
 
     uk: {
       'nav.about':    '\u041f\u0440\u043e \u043d\u0430\u0441',
-      'nav.programs': '\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u0438',
+      'nav.programs': '\u041f\u0435\u0440\u0435\u0432\u0430\u0433\u0438',
       'nav.day':      '\u041d\u0430\u0448 \u0434\u0435\u043d\u044c',
       'nav.gallery':  '\u0413\u0430\u043b\u0435\u0440\u0435\u044f',
       'nav.book':     '\u0417\u0430\u043f\u0438\u0441\u0430\u0442\u0438\u0441\u044f',
