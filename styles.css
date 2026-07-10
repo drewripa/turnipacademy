@@ -238,39 +238,33 @@ img { max-width: 100%; height: auto; display: block; }
 .lang-switch {
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 6px;
   margin-left: 12px;
 }
 
 .lang-btn {
   display: flex;
   align-items: center;
-  gap: 5px;
+  justify-content: center;
   background: none;
-  border: 1px solid transparent;
-  border-radius: 6px;
-  padding: 4px 8px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  padding: 2px;
   cursor: pointer;
-  font-family: var(--font-sans);
-  font-size: .76rem;
-  font-weight: 600;
-  color: var(--text-muted);
-  transition: background .18s, border-color .18s, color .18s;
+  transition: border-color .18s, box-shadow .18s;
   line-height: 1;
 }
 .lang-btn:hover {
-  background: var(--green-50);
-  color: var(--text-dark);
+  border-color: var(--green-200);
 }
 .lang-btn.is-active {
-  border-color: var(--green-200);
-  background: var(--green-50);
-  color: var(--green-800);
+  border-color: var(--green-600);
+  box-shadow: 0 0 0 1px var(--green-200);
 }
 .lang-btn svg {
-  border-radius: 2px;
-  flex-shrink: 0;
+  border-radius: 50%;
   display: block;
+  flex-shrink: 0;
 }
 
 .nav-toggle {
@@ -353,7 +347,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 .hero-sub {
   font-size: 1.15rem;
-  color: var(--text-muted);
+  color: var(--text-body);
   max-width: 560px;
   margin-bottom: 2.5rem;
 }
